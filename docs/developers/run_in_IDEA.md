@@ -1,6 +1,7 @@
 # 使用IDEA运行我们的节点
 
 该文档旨在方便有一定经验的开发者在集成开发环境IDEA中运行我们的节点
+ 
 **以下内容针对当前master分支**
 ## 一、配置集成开发环境IDEA
 **IDEA配置**
@@ -17,7 +18,7 @@
 **创建目录**
 _/deploy_
 
-**克隆最新的代码https:github.com/tronprotocol/java-tron 到上述目录**
+**克隆最新的代码https://github.com/tronprotocol/java-tron 到上述目录**
 
 ```swift
 git clone https://github.com/tronprotocol/java-tron

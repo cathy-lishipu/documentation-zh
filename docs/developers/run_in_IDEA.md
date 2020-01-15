@@ -15,23 +15,27 @@
 ![](../../imags/annnotation.png)
 
 ## 二、部署指南
-**创建目录**
+**1.创建目录**
 _/deploy_
 
-**克隆最新的代码https://github.com/tronprotocol/java-tron 到上述目录**
+```swift
+mkdir deploy
+```
+
+**2.克隆最新的代码https://github.com/tronprotocol/java-tron 到上述目录**
 
 ```swift
 git clone https://github.com/tronprotocol/java-tron
 ```
 
-**切换master分支**
+**3.切换master分支**
 
 ```swift
 cd java-tron
 git checkout -t origin/master
 ```
 
-**编译代码**
+**4.编译代码**
 
 ```swift
 ./gradlew build
@@ -47,9 +51,9 @@ git checkout -t origin/master
 ./gradlew build -x test
 ```
 
-**启动FullNode节点**
+**5.启动FullNode节点**
 
-编译成功后，可通过java-tron/src/main/java/org/tron/program/FullNode.java路径找到启动文件，启动一个全节点。
+编译成功后，可通过java-tron/src/main/java/org/tron/program/FullNode.java路径找到主函数文件，启动一个全节点。
 
 ![](../../imags/start.png)
 
@@ -58,6 +62,6 @@ git checkout -t origin/master
 
 ![](../../imags/start_success.png)
 
-使用tail -f /logs/tron.log/命令来查看实时日志，如下：
+使用tail -f /logs/tron.log命令可查看实时日志，如下：
 
 ![](../../imags/start_successed.png)

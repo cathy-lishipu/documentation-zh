@@ -5,11 +5,11 @@
 - Oracle JDK 1.8（当前不支持OpenJDK）
 - 安装Lombok插件
 
-![](../imags/lombok.png)
+![](../../imags/lombok.png)
 
 - 将Compiler下Annotation Processors中的Enable annotation processing前打勾
 
-![](../imags/annotation.png)
+![](../../imags/annotation.png)
 
 ## 部署指南
 **创建目录**
@@ -33,7 +33,7 @@ git checkout -t origin/master
 
 编译成功，你可以看到类似如下块信息：
 
-![](../imags/build_success_test.png)
+![](../../imags/build_success_test.png)
 
 - 若不编译test类
 ```swift
@@ -42,14 +42,14 @@ git checkout -t origin/master
 
 编译成功，你可以看到类似如下块信息：
 
-![](../imags/build_success_notest.png)
+![](../../imags/build_success_notest.png)
 
 **启动程序**
 
-![](../imags/start.png)
+![](../../imags/start.png)
 
 启动后可查看日志验证是否启动成功，日志路径为：/deploy/java-tron/tron/logs/tron.log。
 使用tail -f /logs/tron.log/命令来查看块同步日志。
 若启动成功，你可以看到类似如下块同步的日志信息：
 
-![](../imags/start_success.png)
+![](../../imags/start_success.png)

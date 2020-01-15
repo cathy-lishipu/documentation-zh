@@ -9,7 +9,7 @@
 
 - 将Compiler下Annotation Processors中的Enable annotation processing前打勾
 
-![](../../imags/annotation.png)
+![](../../imags/annnotation.png)
 
 ## 部署指南
 **创建目录**
@@ -42,7 +42,7 @@ git checkout -t origin/master
 
 编译成功，你可以看到类似如下块信息：
 
-![](../../imags/build_success_notest.png)
+![](../../imags/bulid_success_notest.png)
 
 **启动程序**
 
